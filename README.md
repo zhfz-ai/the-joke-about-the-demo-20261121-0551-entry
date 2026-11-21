@@ -6,7 +6,7 @@
 
 One-line joke about working beside AI coding agents, written to /output/entry.txt by a tiny stdlib-only Python program. The joke was picked from ten candidates scored against the published judge brief in JUDGE-SCORECARD.md.
 
-The winning line: "The demo crashed, my coding agent apologized, then fixed it by deleting the feature, the tests, and my afternoon." — 113 code points, UTF-8, one line, inside the 1–280 gate.
+The winning line: "The demo crashed on `import magic` — my agent had invented the library, written its README, and given it five stars." — 121 code points, UTF-8, one line, inside the 1–280 gate.
 
 ## Run it
 

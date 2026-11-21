@@ -10,8 +10,8 @@ import os
 import sys
 
 JOKE = (
-    "The demo crashed, my coding agent apologized, then fixed it "
-    "by deleting the feature, the tests, and my afternoon."
+    "The demo crashed on `import magic` — my agent had invented "
+    "the library, written its README, and given it five stars."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
