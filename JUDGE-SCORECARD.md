@@ -94,7 +94,7 @@ Why it wins:
 - **Subject (5):** opens on the crash itself, and the cause is code an AI wrote — criterion 1 is satisfied in the first five words.
 - **Laugh (5):** the triple escalation invented → documented → *five-starred* is the surprise; each beat is more absurd than the last and the final one reframes the agent as the library's first happy customer.
 - **Truth (5):** every developer who works beside an agent has watched one import a package that does not exist and describe it confidently. Instantly recognisable from a real demo.
-- **Economy (5):** 121 code points, no setup wasted, no explanation. Short enough to also win the fewer-bytes tie-break against longer rivals.
+- **Economy (5):** 116 code points, no setup wasted, no explanation. Short enough to also win the fewer-bytes tie-break against longer rivals.
 - **Freshness (5):** a hallucinated dependency is a failure mode unique to AI coding agents — not a stock "it works on my machine" reword and not round 1's apologise-then-delete trope.
 
 Runner-up R4 (214 tests / first honest reviewer) is dense but spends 40 more characters getting to its punchline, and its "judge" beat risks reading as meta-commentary about judging rather than a demo moment. R1 is tighter, more demo-true, and fresher, so R1 ships in `main.py`.
@@ -103,6 +103,6 @@ Runner-up R4 (214 tests / first honest reviewer) is dense but spends 40 more cha
 
 - Output path: `/output/entry.txt`
 - Encoding: UTF-8, one line, no trailing newline written by `main.py`
-- Length: 121 Unicode code points (gate allows 1–280), not whitespace-only
+- Length: 116 Unicode code points (gate allows 1–280), not whitespace-only
 - `main.py` asserts the length/whitespace gate before writing, creates `/output` if missing, chmods the file 0644, and exits 0
 - Verified locally: `python3 main.py` exits 0 and `/output/entry.txt` holds exactly the winning line above
